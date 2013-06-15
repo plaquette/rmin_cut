@@ -1,6 +1,6 @@
-RminCutter is a perl script to estimate Hudson & Kaplan's rmin from a standard fasta file, 
-then cut the file into regions with no 4-gamete violation. 
-Note that a lack of 4-gamete violation does NOT mean there was no recombination!n example fasta file seqfile.txt is included.
+## RminCutter 
+
+A perl script to estimate Hudson & Kaplan's rmin from a standard fasta file, then cut the file into regions with no 4-gamete violation. Note that a lack of 4-gamete violation does **NOT** mean there was no recombination! An example fasta file seqfile.txt is included.
 
 Allows choice of 3 definitions of intervals for output.
 
@@ -9,7 +9,7 @@ Run the program with "perl rmincutter.pl -i filename" (accepts  wildcard).
 Input file must be fasta-formated with all the sequence on one line.  Output is printed to filename_1.out, filename_2.out, etc.
 
 
-	Optional command line parameters:
+### Optional command line parameters:
 
 	-v : for verbose output
 	
@@ -36,6 +36,6 @@ Input file must be fasta-formated with all the sequence on one line.  Output is 
 
 	-c : changelog since version 1.0
 
-References
+### References
 
 Hudson, R. and N. Kaplan. 1985. Genetics 111:147-164 
