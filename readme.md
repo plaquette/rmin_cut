@@ -4,6 +4,9 @@ This is a dockerized version of the RminCutter script found here: https://github
 
 Its based on perl:5.38.2-slim and the entrypoint is a Bash session.
 
+perl `RminCutter.pl` is aliased to `rmincutter -i fasta_file.fasta`. 
+
+
 Here follows the original readme:
 
 

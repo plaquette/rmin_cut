@@ -9,4 +9,7 @@ WORKDIR /usr/src/app
 
 COPY RminCutter.pl .
 
+COPY rmincutter.sh /usr/local/bin/rmincutter
+RUN chmod +x /usr/local/bin/rmincutter
+
 CMD ["bash"]
