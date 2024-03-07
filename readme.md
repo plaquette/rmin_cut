@@ -1,3 +1,13 @@
+# RminCutter Docker
+
+This is a dockerized version of the RminCutter script found here: https://github.com/RILAB/rmin_cut
+
+Its based on perl:5.38.2-slim and the entrypoint is a Bash session.
+
+Here follows the original readme:
+
+
+
 ## RminCutter 
 
 A perl script to estimate Hudson & Kaplan's rmin from a standard fasta file, then cut the file into regions with no 4-gamete violation. Note that a lack of 4-gamete violation does **NOT** mean there was no recombination! An example fasta file seqfile.txt is included.
